@@ -167,12 +167,12 @@ a {
 
 .header .cart-items-container {
     position: absolute;
-    top: 95%;
-    height: calc(100vh - 9rem);
+    top: 95%;  
     width: 35rem;
     background-color: #fff;
     box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
     right: -100%;
+    border-radius: 3rem;
 
 }
 
@@ -187,6 +187,7 @@ a {
     align-items: center;
     gap: 1.5rem;
     padding: 1.5rem;
+    
 }
 
 .header .cart-items-container .cart-item:hover {
@@ -222,7 +223,7 @@ a {
 .header .cart-items-container .btn {
     width: 100%;
     text-align: center;
-    border-radius: unset;
+    border-radius: 3rem;
 }
 
 
@@ -704,7 +705,6 @@ a {
         position: absolute;
         top: 95%;
         background-color: white;
-        height: calc(100vh - 9rem);
         width: 30rem;
         box-shadow: 0px 20px 14px 0px rgb(0, 0, 0 / 75%);
         right: -100%;
